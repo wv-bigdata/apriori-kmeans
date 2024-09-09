@@ -68,7 +68,7 @@ Se elige un número $𝐾$ de clusters (grupos) que se desea crear. Luego, se se
 Cada punto de datos se asigna al cluster cuyo centroide esté más cerca, utilizando una métrica de distancia, donde la más aplicada es la **distancia euclidiana**, cuya fórmula es la siguiente:
 
 $$
-d(x, y) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}
+d(x, y) = \sqrt{\sum_{i=1}^{n} (y_i - x_i)^2}
 $$
 
 Donde:
